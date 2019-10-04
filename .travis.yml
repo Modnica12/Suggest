@@ -7,4 +7,4 @@ install:
 - pip install -r requirements.txt
 
 script:
-- ./test_suggest.py
+- test_suggest.py
