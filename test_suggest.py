@@ -17,7 +17,7 @@ class TestSuggest(unittest.TestCase):
 
     def test_t(self):
         sug = suggest.Suggester("ruwords.txt")
-        res = sug.get('')
+        res = sug.get('а')
 
         print(res)
 
